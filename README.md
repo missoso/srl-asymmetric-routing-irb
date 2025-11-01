@@ -14,7 +14,7 @@ Simple baseline setup to play with an asymmetric IRB setup, 4 leafs and only 2 o
 
 ## Deploying the lab
 
-The lab is deployed with the [containerlab](https://containerlab.dev) project, where [`asymmetric.clab.yml`](st.clab.yml) file declaratively describes the lab topology.
+The lab is deployed with the [containerlab](https://containerlab.dev) project, where [`asymmetric.clab.yml`](https://github.com/missoso/srl-asymmetric-routing-irb/blob/main/asymmetric.clab.yml) file declaratively describes the lab topology.
 
 ```bash
 # change into the cloned directory
