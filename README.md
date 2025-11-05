@@ -14,9 +14,13 @@ Simple baseline setup to play with an asymmetric IRB setup, 4 leafs and only 2 o
 
 Asymmetric 
 
-Same subnet: Client 3 <--> Client 1 : Leaf3 (MAC-VRF vrf-1) to Leaf1 (MAC-VRF vrf-1)
+Same subnet : Client 3 <--> Client 1 :
 
-Different subnet: Client 3 <--> Client 1 : Leaf 3 (MAC-VRF vrf-1, IP-VRF ip-vrf, MAC-VRF vrf-2 (no local interfaces but must exist)) to Leaf1 (MAC-VRF vrf-2)
+Leaf3 (MAC-VRF vrf-1) to Leaf1 (MAC-VRF vrf-1)
+
+Different subnet: Client 3 <--> Client 1 :
+
+Leaf 3 (MAC-VRF vrf-1, IP-VRF ip-vrf, MAC-VRF vrf-2 (no local interfaces but must exist)) to Leaf1 (MAC-VRF vrf-2)
 
 # Overlay, underlay and mgmt 
 
