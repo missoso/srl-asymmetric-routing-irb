@@ -8,9 +8,13 @@ Simple baseline setup to play with an asymmetric IRB setup, 4 leafs and only 2 o
 
 ![pic1](https://github.com/missoso/srl-asymmetric-routing-irb/blob/main/img_and_drawio/srl-asymmetric-routing-irb.drawio.png)
 
+# VNI, EVI and logical interfaces setup
+
+![pic2](https://github.com/missoso/srl-asymmetric-routing-irb/blob/main/img_and_drawio/srl-asymmetric-routing-irb-detail.drawio.png)
+
 # Overlay, underlay and mgmt 
 
-![pic2](https://github.com/missoso/srl-asymmetric-routing-irb/blob/main/img_and_drawio/underlay_overlay_mgmt.drawio.png)
+![pic3](https://github.com/missoso/srl-asymmetric-routing-irb/blob/main/img_and_drawio/underlay_overlay_mgmt.drawio.png)
 
 ## Deploying the lab
 
