@@ -12,6 +12,12 @@ Simple baseline setup to play with an asymmetric IRB setup, 4 leafs and only 2 o
 
 ![pic2](https://github.com/missoso/srl-asymmetric-routing-irb/blob/main/img_and_drawio/srl-asymmetric-routing-irb-detail.drawio.png)
 
+Asymmetric 
+
+Same subnet: Client 3 <--> Client 1 : Leaf3 (MAC-VRF vrf-1) to Leaf1 (MAC-VRF vrf-2)
+
+Different subnet: Client 3 <--> Client 1 : Leaf 3 (MAC-VRF vrf-1, IP-VRF ip-vrf, MAC-VRF vrf-2 (no local interfaces but must exist)) to Leaf1 (MAC-VRF vrf-2)
+
 # Overlay, underlay and mgmt 
 
 ![pic3](https://github.com/missoso/srl-asymmetric-routing-irb/blob/main/img_and_drawio/underlay_overlay_mgmt.drawio.png)
